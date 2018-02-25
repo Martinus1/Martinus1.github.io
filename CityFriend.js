@@ -1,15 +1,3 @@
-(function() {
-  var images;
-
-  images = ["file:///Users/martin_michalko/Downloads/Vy%CC%81ber-upravene%CC%81/photorande-15.jpg", "file:///Users/martin_michalko/Downloads/Vy%CC%81ber-upravene%CC%81/f2bca44a2572d3fb2418840618de855564890c9b.jpg", "file:///Users/martin_michalko/Downloads/Vy%CC%81ber-upravene%CC%81/be256f672482e1e3779961cee3c2c7ad4b542190.jpg", "file:///Users/martin_michalko/Downloads/Vy%CC%81ber-upravene%CC%81/adventures-by-disney-europe-danube-river-cruise-itinerary-day-06-top-bratislava-city-tour.jpg", "file:///Users/martin_michalko/Downloads/Vy%CC%81ber-upravene%CC%81/2878563_1200x.jpg", "file:///Users/martin_michalko/Downloads/Vy%CC%81ber-upravene%CC%81/1875eef2718ff9dd658012ec0e5a577326ce0bb0.jpg"];
-
-  $('div.card-image').each(function() {
-    var random_image_index;
-    random_image_index = Math.floor(images.length * Math.random());
-    return $(this).css('background-image', 'url(' + images[random_image_index] + ')');
-  });
-
-}).call(this);
 
 //# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiPGFub255bW91cz4iXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7QUFBQSxNQUFBOztFQUFBLE1BQUEsR0FBUyxDQUNQLGlEQURPLEVBRVAsOENBRk8sRUFHUCw2Q0FITyxFQUlQLCtDQUpPLEVBS1AsOENBTE8sRUFNUCxpREFOTyxFQU9
 

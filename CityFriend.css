@@ -50,7 +50,7 @@ html, body{
   height: 100%;
 }
 body { 
-      background-image: url(file:///Users/martin_michalko/Downloads/Vy%CC%81ber-upravene%CC%81/adventures-by-disney-europe-danube-river-cruise-itinerary-day-06-top-bratislava-city-tour.jpg) ;
+      background-image: url(adventure.jpg) ;
       background-position: center center;
       background-repeat:  no-repeat;
       background-attachment: absolute;
@@ -61,7 +61,17 @@ body {
   
 }
 
+#img1{
+background-image: url(obrazok2.jpg);
+}
 
+#img2{
+background-image: url(obrazok1.jpg);
+}
+
+#img3{
+background-image: url(obrazok3.jpg);
+}
 #more-details{
   position: relative;
   height: 1750px;
